@@ -10,12 +10,14 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { MatListModule } from '@angular/material/list';
 import { MatTableModule } from '@angular/material/table';
 import { HttpClientModule } from '@angular/common/http';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 @NgModule({
     declarations: [
         AppComponent,
-        ProductListComponent
+        ProductListComponent,
     ],
     imports: [
         BrowserModule,
@@ -24,7 +26,9 @@ import { HttpClientModule } from '@angular/common/http';
         BrowserAnimationsModule,
         MatListModule,
         MatTableModule,
-        HttpClientModule
+        HttpClientModule,
+        MatPaginatorModule,
+        MatSortModule
     ],
     providers: [],
     bootstrap: [AppComponent]

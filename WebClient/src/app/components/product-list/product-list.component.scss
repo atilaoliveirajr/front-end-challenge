@@ -1,3 +1,18 @@
-.table {
+.mat-table {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
     width: 100%;
+    th {
+        padding-left: 5px;
+        border: rgb(155, 193, 155) solid 1px;
+        background-color: rgb(167, 201, 67);
+        color: white;
+    }
+    td {
+        border: rgb(155, 193, 155) solid 1px;
+        padding-left: 5px;
+        text-align: left;
+    }
+    tr:nth-child(even) {
+        background-color: rgb(234, 243, 211);
+    }
 }
