@@ -1,0 +1,23 @@
+{
+    "products": [{
+            "productName": "The Widowmaker",
+            "price": "30",
+            "size": "medium"
+        },
+        {
+            "productName": "Hand of Exhaust",
+            "price": "50",
+            "size": "medium"
+        },
+        {
+            "productName": "The D-800",
+            "price": "60",
+            "size": "medium"
+        },
+        {
+            "productName": "Excalibur",
+            "price": "70",
+            "size": "Excalibur"
+        }
+    ]
+}
